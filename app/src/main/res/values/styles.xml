@@ -6,6 +6,16 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:actionBarStyle">@style/CustomActionBar</item> //ADDED
     </style>
+
+<style name="CustomActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:background">@android:color/darker_gray</item>
+</style>
+
+
+
+
 
 </resources>
